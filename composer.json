@@ -1,0 +1,24 @@
+{
+    "name": "zonuexe/minrep",
+    "license": "AGPL-3.0",
+    "type": "project",
+    "autoload": {
+        "files": ["app/functions.php"],
+        "psr-4": {
+            "MinRep\\": "app/"
+        }
+    },
+    "require": {
+        "baguette/webapp-core": "^0.2.0",
+        "zonuexe/simple-routing": "^0.5.1",
+        "vlucas/phpdotenv": "^2.4",
+        "twig/twig": "^1.30",
+        "filp/whoops": "^2.1",
+        "symfony/polyfill": "^1.3",
+        "symfony/var-dumper": "^3.2"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.2",
+        "psy/psysh": "^0.8.0"
+    }
+}
